@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>Profile - น้ำว้า</title>
+  <link rel="stylesheet" href="namwa-style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      background-color: #d98eb7;
+      font-family: 'Fredoka', sans-serif;
+    }
+
+    /* Navbar */
+    .navbar {
+      background-color: #9c4172;
+      display: flex;
+      justify-content: space-between; /* Profile ซ้าย, Home ขวา */
+      padding: 20px 40px;
+    }
+
+    .navbar a {
+      color: white;
+      font-size: 40px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+
+    /* Container */
+    .container {
+      display: flex;
+      align-items: center; /* ให้อยู่กึ่งกลางแนวตั้ง */
+      padding: 40px 60px;
+      gap: 40px;
+    }
+
+    /* Profile Image */
+    .profile-img img {
+      width: 100; /* ปรับขนาดรูปเล็กลง */
+      height: auto;
+      border-radius: 10px;
+    }
+
+    /* Profile Info */
+    .profile-info {
+      color: rgb(241, 225, 225);
+      font-size: 30px;
+      font-weight: bold;
+      line-height: 1.7;
+      text-align: left; /* ให้ข้อมูลชิดซ้าย */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <a href="#">Profile</a>
+    <a href="index.html">Home</a>
+  </div>
+
+  <div class="container">
+    <div class="profile-img">
+      <img src="namwa-profile.png" alt="รูปน้ำว้า">
+    </div>
+    <div class="profile-info">
+      <p>ชื่อ : นางสาวน้ำว้า หวังแจ่ม</p>
+      <p>ชื่อเล่น : อินอาม</p>
+      <p>วัน/เดือน/ปีเกิด : 23/04/2551</p>
+      <p>งานอดิเรก : ดูหนัง ฟังเพลง นอนหลับ กิน</p>
+    </div>
+  </div>
+
+</body>
+</html>

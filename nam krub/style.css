@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  background-color: #d98eb7;
+  font-family: 'Fredoka', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #9c4172;
+  display: flex;
+  justify-content: space-between;
+  padding:  60px;
+}
+
+.navbar a {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Container */
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+/* Profile Image */
+.profile-img {
+  width: 50px; /* ปรับขนาดรูปให้เล็กลง */
+  border-radius: 5px;
+}
+
+/* Profile Info */
+.profile-info {
+  color: rgb(241, 225, 225);
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: right;  /* ให้ข้อความชิดขวา */
+  max-width: 300px;   /* กำหนดความกว้างสูงสุดของข้อความ */
+}

@@ -1,0 +1,66 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka', sans-serif;
+    background-color: #d28ba7;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #a04371;
+    padding: 20px 40px;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .nav-item.left {
+    text-align: left;
+    flex: 1;
+  }
+  
+  .nav-item.center {
+    text-align: center;
+    flex: 1;
+  }
+  
+  .nav-item.right {
+    text-align: right;
+    flex: 1;
+  }
+  
+  /* Content section */
+  .content {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 40px 0;
+  }
+  
+  .card {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .card p {
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    margin-top: 15px;
+  }
+  
